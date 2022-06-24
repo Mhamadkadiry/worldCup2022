@@ -9,6 +9,7 @@ const nextConfig = {
       "thumbor.prod.vidiocdn.com",
       "cdn29.us1.fansshare.com",
       "cloudinary.fifa.com",
+      "media.api-sports.io",
     ],
   },
 };

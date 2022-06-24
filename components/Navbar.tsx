@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 import Logo from '../assets/images/logo.png'
 export default function Navbar() {
@@ -35,36 +36,48 @@ export default function Navbar() {
           >
             <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
             <li className="nav-item">
+              <Link href="/">
                 <a
-                  className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
-                  href="#pablo"
-                >
-                  <i className="fab fa-facebook-square text-lg leading-lg text-white opacity-75"></i><span className="ml-2">Home</span>
-                </a>
+                    className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
+                    href="/"
+                  >
+                    <i className="fab fa-facebook-square text-lg leading-lg text-white opacity-75"></i><span className="ml-2">Home</span>
+                  </a>
+              </Link>
+                
               </li>
               <li className="nav-item">
+              <Link href="/about">
                 <a
                   className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
-                  href="#pablo"
+                  href="/about"
                 >
                   <i className="fab fa-facebook-square text-lg leading-lg text-white opacity-75"></i><span className="ml-2">About</span>
                 </a>
+              </Link>
+                
               </li>
               <li className="nav-item">
+              <Link href="/teams">
                 <a
                   className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
-                  href="#pablo"
+                  href="/teams"
                 >
                   <i className="fab fa-twitter text-lg leading-lg text-white opacity-75"></i><span className="ml-2">Teams</span>
                 </a>
+              </Link>
+                
               </li>
               <li className="nav-item">
+              <Link href="/contact">
                 <a
                   className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
-                  href="#pablo"
+                  href="/contact"
                 >
                   <i className="fab fa-pinterest text-lg leading-lg text-white opacity-75"></i><span className="ml-2">Contact</span>
                 </a>
+              </Link>
+                
               </li>
             </ul>
           </div>

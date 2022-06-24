@@ -6,12 +6,12 @@ import Sponsor4 from '../assets/images/sponsors/4.png';
 import Sponsor5 from '../assets/images/sponsors/5.png';
 import Sponsor6 from '../assets/images/sponsors/6.png';
 import Sponsor7 from '../assets/images/sponsors/7.png';
-
+import Styles from "../styles/Home.module.css";
 function Sponsors() {
   return (
     <div className="max-w-7xl mx-auto mb-5 mt-5 p-2">
         <p className='font-extrabold text-[25px] lg:text-[40px] w-full border-l-2 bg-[#ffe2f1] border-b-2 border-[#9a074f] rounded-lg p-2 mb-5 mt-5 '>Sponsors</p>
-        <section className='flex flex-col items-center'>
+        {/* <section className='flex flex-col items-center'>
             <ul className='flex overflow-x-auto gap-40 snap-x snap-mandatory'>
                 <li className='shrink-0 snap-center'>
                     <Image width={200} height={200} src={Sponsor1} alt='sponsor' />
@@ -35,7 +35,11 @@ function Sponsors() {
                     <Image width={200} height={200} src={Sponsor7} alt='sponsor' />
                 </li>
             </ul>
-        </section>
+        </section> */}
+                <div className={Styles.techslideshow}>
+                    <div className={Styles.mover1}></div>
+                    <div className={Styles.mover2}></div>
+                </div>
     </div>
   )
 }
