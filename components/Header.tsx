@@ -29,10 +29,10 @@ function Header() {
                 <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">When and where is the 2022 World Cup?</p>
                 <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                     <div className="rounded-md shadow">
-                    <Link href="/about"><a href="/about" className="w-full flex items-center justify-center px-8 py-2 border border-transparent text-base font-medium rounded-md text-white bg-[#9a074f] hover:bg-[#470f2a] md:py-4 md:text-lg md:px-10"> About </a></Link>
+                    <Link href="/about"><div className="w-full flex items-center justify-center px-8 py-2 border border-transparent text-base font-medium rounded-md text-white bg-[#9a074f] hover:bg-[#470f2a] md:py-4 md:text-lg md:px-10"> About </div></Link>
                     </div>
                     <div className="mt-3 sm:mt-0 sm:ml-3">
-                    <Link href="/teams"><a href="/teams" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-[#9a074f] bg-[#fddfed] hover:text-white hover:bg-[#963162] md:py-4 md:text-lg md:px-10">Teams</a></Link>
+                    <Link href="/teams"><div className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-[#9a074f] bg-[#fddfed] hover:text-white hover:bg-[#963162] md:py-4 md:text-lg md:px-10">Teams</div></Link>
                     </div>
                 </div>
                 </div>
