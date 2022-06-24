@@ -39,7 +39,9 @@ function about() {
                 </div>
                 <div className="bg-gray-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
                     <dt className="text-sm font-medium text-gray-500">About</dt>
-                    <dd className="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2"></dd>
+                    <dd className="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2"><p>
+                    The 2022 FIFA World Cup is scheduled to be the 22nd running of the FIFA World Cup competition, the quadrennial international men football championship contested by the senior national teams of the member associations of FIFA. It is scheduled to take place in Qatar from 21 November to 18 December 2022. This will be the first World Cup ever to be held in the Arab world,[1] and it will be the second World Cup held entirely in Asia after the 2002 tournament was held in South Korea and Japan.[a] In addition, the tournament will be the last to involve 32 teams, with an increase to 48 teams scheduled for the 2026 tournament in the United States, Mexico, and Canada. Due to Qatar intense summer heat, this World Cup will be held from late-November to mid-December, making it the first tournament not to be held in May, June, or July; it is to be played in a reduced timeframe of around 28 days.[2] The first match played at the tournament will be contested between Senegal and the Netherlands at Al Thumama Stadium, Doha. The final is due to be held on 18 December 2022, which is also Qatar National Day. The reigning World Cup champions are France.
+                        </p></dd>
                 </div>
 
                 </dl>
