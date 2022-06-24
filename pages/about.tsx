@@ -5,7 +5,7 @@ function about() {
   return (
     <div>
     <Layout>
-        <div className='max-w-7xl mx-auto mb-5 mt-5 p-2'>
+        <div className="max-w-7xl mx-auto mb-5 mt-5 p-2">
             <div className="bg-white shadow overflow-hidden sm:rounded-lg">
             <div className="px-4 py-5 sm:px-6">
                 <h3 className="text-lg leading-6 font-medium text-gray-900">World Cup Information</h3>
